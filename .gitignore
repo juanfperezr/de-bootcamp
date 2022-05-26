@@ -1,0 +1,11 @@
+Terraform/.terraform/*
+
+Terraform/.terraform.lock.hcl
+
+Terraform/*.tfstate
+
+DockerSQL/ny_taxi_postgresql_data/
+
+*.csv
+*.pdf
+*.parquet

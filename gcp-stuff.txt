@@ -1,0 +1,10 @@
+Project ID: clear-shadow-351220
+key_file = clear-shadow-351220-05f86091bf6d.json
+key = 05f86091bf6d4895706be28d17953dd318c9572c
+
+export GOOGLE_APPLICATION_CREDENTIALS="C:\Users\juan.perez\Downloads\clear-shadow-351220-05f86091bf6d.json"
+
+# Refresh token/session, and verify authentication
+gcloud auth application-default login
+
+account = data.engineer.camp.01@gmail.com
