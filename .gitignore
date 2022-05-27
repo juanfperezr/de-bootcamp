@@ -9,3 +9,6 @@ DockerSQL/ny_taxi_postgresql_data/
 *.csv
 *.pdf
 *.parquet
+*.json
+*.txt
+*.sh
