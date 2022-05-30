@@ -12,3 +12,6 @@ DockerSQL/ny_taxi_postgresql_data/
 *.json
 *.txt
 *.sh
+
+Airflow/logs/
+Airflow/dags/__pycache__
