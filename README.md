@@ -4,4 +4,4 @@ data engineering bootcamp GCP
 
 
 # Airflow Architecture
-<img src="images/airflowArch.png"/>
+<img src="images/airflowArch.PNG"/>
