@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: staging
+      database: clear-shadow-351220
+      schema: trips_data
+
+      tables:
+        - name: yellow_tripdata_part
