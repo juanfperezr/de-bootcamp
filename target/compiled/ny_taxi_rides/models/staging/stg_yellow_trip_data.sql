@@ -8,7 +8,7 @@ select
     string
 ), '') as 
     string
-))) as trip_id,
+))) as tripid,
     cast(vendorid as integer) as vendorid,
     cast(ratecodeid as integer) as ratecodeid,
     cast(pulocationid as integer) as  pickup_locationid,
@@ -47,3 +47,5 @@ select
 from `clear-shadow-351220`.`trips_data`.`yellow_tripdata_part`
 where vendorid is not null
 -- dbt build --m <model.sql> --var 'is test_run: false'
+
+    limit 100
